@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.ColumnConstraints?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.layout.RowConstraints?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane fx:id="_field" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="550.0" prefWidth="850.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="ce1002.final1.s107502505.game3">
+   <children>
+      <ImageView fx:id="_back" fitHeight="556.0" fitWidth="5267.0" layoutY="-1.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@picture/back3.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="_weapon" fitHeight="126.0" fitWidth="112.0" layoutX="151.0" layoutY="332.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@picture/weapon.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="_hero" fitHeight="140.0" fitWidth="135.0" layoutX="84.0" layoutY="344.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@picture/hero.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="_enemy9" fitHeight="140.0" fitWidth="135.0" layoutX="2927.0" layoutY="321.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@picture/enemy.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="_enemy" fitHeight="140.0" fitWidth="135.0" layoutX="284.0" layoutY="391.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@picture/enemy.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="_enemy2" fitHeight="140.0" fitWidth="135.0" layoutX="818.0" layoutY="325.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@picture/enemy.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="_enemy5" fitHeight="140.0" fitWidth="150.0" layoutX="1655.0" layoutY="325.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@picture/enemy_1.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="_enemy6" fitHeight="140.0" fitWidth="135.0" layoutX="1887.0" layoutY="325.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@picture/enemy.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="_enemy6" fitHeight="140.0" fitWidth="135.0" layoutX="2138.0" layoutY="321.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@picture/enemy.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="_enemy7" fitHeight="140.0" fitWidth="135.0" layoutX="2352.0" layoutY="325.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@picture/enemy.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="_enemy8" fitHeight="140.0" fitWidth="141.0" layoutX="2622.0" layoutY="325.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@picture/enemy.png" />
+         </image>
+      </ImageView>
+      <GridPane layoutX="10.0" layoutY="43.0" prefHeight="22.0" prefWidth="421.0">
+         <columnConstraints>
+            <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+            <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+            <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+            <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+            <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+            <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+            <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+            <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+            <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+            <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+            <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+            <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+            <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+            <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+            <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+            <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+            <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+            <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+            <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+            <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+         </columnConstraints>
+         <rowConstraints>
+            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+         </rowConstraints>
+         <children>
+            <Pane fx:id="hp6" prefHeight="200.0" prefWidth="200.0" style="-fx-background-color: green;" GridPane.columnIndex="5" />
+            <Pane fx:id="hp8" prefHeight="200.0" prefWidth="200.0" style="-fx-background-color: green;" GridPane.columnIndex="7" />
+            <Pane fx:id="hp1" prefHeight="24.0" prefWidth="28.0" style="-fx-background-color: green;" />
+            <Pane fx:id="hp7" prefHeight="200.0" prefWidth="200.0" style="-fx-background-color: green;" GridPane.columnIndex="6" />
+            <Pane fx:id="hp10" prefHeight="22.0" prefWidth="14.0" style="-fx-background-color: green;" GridPane.columnIndex="9" />
+            <Pane fx:id="hp9" prefHeight="200.0" prefWidth="200.0" style="-fx-background-color: green;" GridPane.columnIndex="8" />
+            <Pane fx:id="hp5" prefHeight="200.0" prefWidth="200.0" style="-fx-background-color: green;" GridPane.columnIndex="4" />
+            <Pane fx:id="hp4" prefHeight="200.0" prefWidth="200.0" style="-fx-background-color: green;" GridPane.columnIndex="3" />
+            <Pane fx:id="hp3" prefHeight="200.0" prefWidth="200.0" style="-fx-background-color: green;" GridPane.columnIndex="2" />
+            <Pane fx:id="hp2" prefHeight="200.0" prefWidth="200.0" style="-fx-background-color: green;" GridPane.columnIndex="1" />
+            <Pane fx:id="hp11" prefHeight="22.0" prefWidth="14.0" style="-fx-background-color: green;" GridPane.columnIndex="10" />
+            <Pane fx:id="hp12" prefHeight="22.0" prefWidth="14.0" style="-fx-background-color: green;" GridPane.columnIndex="11" />
+            <Pane fx:id="hp13" prefHeight="22.0" prefWidth="14.0" style="-fx-background-color: green;" GridPane.columnIndex="12" />
+            <Pane fx:id="hp14" prefHeight="22.0" prefWidth="14.0" style="-fx-background-color: green;" GridPane.columnIndex="13" />
+            <Pane fx:id="hp15" prefHeight="22.0" prefWidth="35.0" style="-fx-background-color: green;" GridPane.columnIndex="14" />
+            <Pane fx:id="hp16" prefHeight="22.0" prefWidth="35.0" style="-fx-background-color: green;" GridPane.columnIndex="15" />
+            <Pane fx:id="hp19" prefHeight="22.0" prefWidth="35.0" style="-fx-background-color: green;" GridPane.columnIndex="18" />
+            <Pane fx:id="hp18" prefHeight="22.0" prefWidth="35.0" style="-fx-background-color: green;" GridPane.columnIndex="17" />
+            <Pane fx:id="hp17" prefHeight="22.0" prefWidth="35.0" style="-fx-background-color: green;" GridPane.columnIndex="16" />
+            <Pane fx:id="hp20" prefHeight="22.0" prefWidth="35.0" style="-fx-background-color: green;" GridPane.columnIndex="19" />
+         </children>
+      </GridPane>
+      <ImageView fx:id="_enemy3" fitHeight="140.0" fitWidth="135.0" layoutX="1101.0" layoutY="325.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@picture/enemy.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="_enemy4" fitHeight="140.0" fitWidth="135.0" layoutX="1396.0" layoutY="325.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@picture/enemy.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="_enemy10" fitHeight="154.0" fitWidth="151.0" layoutX="3220.0" layoutY="317.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@picture/enemy_1.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="_enemy11" fitHeight="140.0" fitWidth="135.0" layoutX="3497.0" layoutY="321.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@picture/enemy.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="_enemy12" fitHeight="140.0" fitWidth="135.0" layoutX="3684.0" layoutY="321.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@picture/enemy.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="_enemy15" fitHeight="140.0" fitWidth="135.0" layoutX="4655.0" layoutY="321.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@picture/enemy.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="_enemy14" fitHeight="140.0" fitWidth="135.0" layoutX="4352.0" layoutY="325.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@picture/enemy.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="_enemy13" fitHeight="140.0" fitWidth="135.0" layoutX="3961.0" layoutY="325.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@picture/enemy.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="ice" fitHeight="82.0" fitWidth="65.0" layoutX="-84.0" layoutY="22.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@picture/5a4482ecb102c.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="fire" fitHeight="48.0" fitWidth="37.0" layoutX="-51.0" layoutY="111.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@picture/honoo_hi_fire.png" />
+         </image>
+      </ImageView>
+      <Text fx:id="text" layoutX="425.0" layoutY="29.0" strokeType="OUTSIDE" strokeWidth="0.0" text="20/20" />
+      <Button fx:id="_ReturnBtn" layoutX="10.0" layoutY="12.0" mnemonicParsing="false" onAction="#onBackPressed" prefHeight="23.0" prefWidth="60.0" text="Back" />
+      <ImageView fx:id="_enemy16" fitHeight="148.0" fitWidth="112.0" layoutX="5043.0" layoutY="321.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@picture/enemy_3.png" />
+         </image>
+      </ImageView>
+   </children>
+</AnchorPane>

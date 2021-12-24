@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="550.0" prefWidth="850.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="ce1002.final1.s107502505.level">
+   <children>
+      <ImageView fitHeight="682.0" fitWidth="858.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@picture/back.jpg" />
+         </image>
+      </ImageView>
+      <Button layoutX="89.0" layoutY="110.0" mnemonicParsing="false" onAction="#onEasyPressed" prefHeight="42.0" prefWidth="114.0" text="Easy">
+         <font>
+            <Font size="19.0" />
+         </font></Button>
+      <Button layoutX="89.0" layoutY="205.0" mnemonicParsing="false" onAction="#onNormalPressed" prefHeight="42.0" prefWidth="113.0" text="medium">
+         <font>
+            <Font size="17.0" />
+         </font></Button>
+      <Button layoutX="89.0" layoutY="304.0" mnemonicParsing="false" onAction="#onDiffPressed" prefHeight="42.0" prefWidth="114.0" text="hard">
+         <font>
+            <Font size="19.0" />
+         </font></Button>
+   </children>
+</AnchorPane>

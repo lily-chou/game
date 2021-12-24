@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.ColumnConstraints?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.layout.RowConstraints?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane fx:id="_field" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="550.0" prefWidth="850.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="ce1002.final1.s107502505.battle3">
+   <children>
+      <ImageView fitHeight="573.0" fitWidth="864.0" layoutX="-4.0" layoutY="-17.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@picture/game3.jpg" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="e_weapon" fitHeight="65.0" fitWidth="88.0" layoutX="656.0" layoutY="348.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@picture/e_wea.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="_weapon" fitHeight="150.0" fitWidth="200.0" layoutX="104.0" layoutY="288.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@picture/weapon.png" />
+         </image></ImageView>
+      <ImageView fx:id="_hero" fitHeight="224.0" fitWidth="200.0" layoutX="14.0" layoutY="288.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@picture/hero.png" />
+         </image></ImageView>
+      <ImageView fx:id="_enemy" fitHeight="196.0" fitWidth="130.0" layoutX="669.0" layoutY="288.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@picture/enemy.png" />
+         </image></ImageView>
+      <Button fx:id="_ReturnBtn" layoutX="359.0" layoutY="410.0" mnemonicParsing="false" onAction="#onBackPressed" prefHeight="123.0" prefWidth="150.0" text="You Lose&#10;&#10;Back" visible="false" />
+      <GridPane layoutX="9.0" layoutY="22.0" prefHeight="27.0" prefWidth="422.0">
+        <columnConstraints>
+          <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+          <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+            <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+            <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+            <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+            <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+            <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+            <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+            <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+            <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+            <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+            <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+            <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+            <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+            <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+            <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+            <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+            <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+            <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+            <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+        </columnConstraints>
+        <rowConstraints>
+          <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+        </rowConstraints>
+         <children>
+            <Pane fx:id="hp1" prefHeight="200.0" prefWidth="200.0" style="-fx-background-color: green;" />
+            <Pane fx:id="hp2" prefHeight="200.0" prefWidth="200.0" style="-fx-background-color: green;" GridPane.columnIndex="1" />
+            <Pane fx:id="hp3" prefHeight="200.0" prefWidth="200.0" style="-fx-background-color: green;" GridPane.columnIndex="2" />
+            <Pane fx:id="hp4" prefHeight="200.0" prefWidth="200.0" style="-fx-background-color: green;" GridPane.columnIndex="3" />
+            <Pane fx:id="hp5" prefHeight="200.0" prefWidth="200.0" style="-fx-background-color: green;" GridPane.columnIndex="4" />
+            <Pane fx:id="hp6" prefHeight="200.0" prefWidth="200.0" style="-fx-background-color: green;" GridPane.columnIndex="5" />
+            <Pane fx:id="hp7" prefHeight="200.0" prefWidth="200.0" style="-fx-background-color: green;" GridPane.columnIndex="6" />
+            <Pane fx:id="hp8" prefHeight="200.0" prefWidth="200.0" style="-fx-background-color: green;" GridPane.columnIndex="7" />
+            <Pane fx:id="hp9" prefHeight="200.0" prefWidth="200.0" style="-fx-background-color: green;" GridPane.columnIndex="8" />
+            <Pane fx:id="hp10" prefHeight="200.0" prefWidth="200.0" style="-fx-background-color: green;" GridPane.columnIndex="9" />
+            <Pane fx:id="hp11" prefHeight="200.0" prefWidth="200.0" style="-fx-background-color: green;" GridPane.columnIndex="10" />
+            <Pane fx:id="hp12" prefHeight="200.0" prefWidth="200.0" style="-fx-background-color: green;" GridPane.columnIndex="11" />
+            <Pane fx:id="hp13" prefHeight="200.0" prefWidth="200.0" style="-fx-background-color: green;" GridPane.columnIndex="12" />
+            <Pane fx:id="hp14" prefHeight="200.0" prefWidth="200.0" style="-fx-background-color: green;" GridPane.columnIndex="13" />
+            <Pane fx:id="hp15" prefHeight="200.0" prefWidth="200.0" style="-fx-background-color: green;" GridPane.columnIndex="14" />
+            <Pane fx:id="hp16" prefHeight="200.0" prefWidth="200.0" style="-fx-background-color: green;" GridPane.columnIndex="15" />
+            <Pane fx:id="hp17" prefHeight="200.0" prefWidth="200.0" style="-fx-background-color: green;" GridPane.columnIndex="16" />
+            <Pane fx:id="hp18" prefHeight="200.0" prefWidth="200.0" style="-fx-background-color: green;" GridPane.columnIndex="17" />
+            <Pane fx:id="hp19" prefHeight="200.0" prefWidth="200.0" style="-fx-background-color: green;" GridPane.columnIndex="18" />
+            <Pane fx:id="hp20" prefHeight="28.0" prefWidth="17.0" style="-fx-background-color: green;" GridPane.columnIndex="19" />
+         </children>
+      </GridPane>
+      <GridPane layoutX="628.0" layoutY="29.0" prefHeight="20.0" prefWidth="211.0">
+        <columnConstraints>
+            <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+            <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+          <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+            <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+          <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+            <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+            <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+            <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+            <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+            <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+        </columnConstraints>
+        <rowConstraints>
+          <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+        </rowConstraints>
+         <children>
+            <Pane fx:id="e_hp8" prefHeight="21.0" prefWidth="82.0" style="-fx-background-color: green;" GridPane.columnIndex="2" />
+            <Pane fx:id="e_hp7" prefHeight="200.0" prefWidth="200.0" style="-fx-background-color: green;" GridPane.columnIndex="3" />
+            <Pane fx:id="e_hp6" prefHeight="200.0" prefWidth="200.0" style="-fx-background-color: green;" GridPane.columnIndex="4" />
+            <Pane fx:id="e_hp5" prefHeight="200.0" prefWidth="200.0" style="-fx-background-color: green;" GridPane.columnIndex="5" />
+            <Pane fx:id="e_hp4" prefHeight="200.0" prefWidth="200.0" style="-fx-background-color: green;" GridPane.columnIndex="6" />
+            <Pane fx:id="e_hp3" prefHeight="21.0" prefWidth="82.0" style="-fx-background-color: green;" GridPane.columnIndex="7" />
+            <Pane fx:id="e_hp2" prefHeight="21.0" prefWidth="82.0" style="-fx-background-color: green;" GridPane.columnIndex="8" />
+            <Pane fx:id="e_hp1" prefHeight="21.0" prefWidth="82.0" style="-fx-background-color: green;" GridPane.columnIndex="9" />
+            <Pane fx:id="e_hp10" prefHeight="21.0" prefWidth="82.0" style="-fx-background-color: green;" />
+            <Pane fx:id="e_hp9" prefHeight="21.0" prefWidth="82.0" style="-fx-background-color: green;" GridPane.columnIndex="1" />
+         </children>
+      </GridPane>
+      <Button fx:id="_nextBtn" layoutX="347.0" layoutY="438.0" mnemonicParsing="false" onAction="#onnextPressed" prefHeight="92.0" prefWidth="142.0" text="Back" visible="false" />
+      <Text fx:id="text" layoutX="415.0" layoutY="19.0" strokeType="OUTSIDE" strokeWidth="0.0" text="20/20" />
+      <ImageView fx:id="ice" fitHeight="82.0" fitWidth="65.0" layoutX="-74.0" layoutY="32.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@picture/5a4482ecb102c.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="fire" fitHeight="48.0" fitWidth="37.0" layoutX="-41.0" layoutY="121.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@picture/honoo_hi_fire.png" />
+         </image>
+      </ImageView>
+   </children>
+</AnchorPane>
